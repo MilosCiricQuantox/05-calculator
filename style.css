@@ -284,7 +284,7 @@ body.theme-3 {
     cursor: pointer;
 }
 
-.number.theme-1:hover, .addition.theme-1:hover, .subtraction.theme-1:hover, .division-theme-1:hover, .multiplication.theme-1:hover, .dot.theme-1:hover {
+.number:hover, .addition:hover, .subtraction:hover, .division:hover, .multiplication:hover, .dot:hover {
     background-color:#ffffff;
 }
 
