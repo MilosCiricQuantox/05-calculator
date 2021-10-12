@@ -284,6 +284,18 @@ body.theme-3 {
     cursor: pointer;
 }
 
+.number.theme-1:hover, .addition.theme-1:hover, .subtraction.theme-1:hover, .division-theme-1:hover, .multiplication.theme-1:hover, .dot.theme-1:hover {
+    background-color:#ffffff;
+}
+
+.number.theme-2:hover, .addition.theme-2:hover, .subtraction.theme-2:hover, .division-theme-2:hover, .multiplication.theme-2:hover, .dot.theme-2:hover {
+    background-color:#ffffff;
+}
+
+.number.theme-3:hover, .addition.theme-3:hover, .subtraction.theme-3:hover, .division-theme-3:hover, .multiplication.theme-3:hover, .dot.theme-3:hover {
+    background-color:#8631AF;
+}
+
 .number.theme-3 {
     background-color:var(--key-background-violet-third);
     color: var(--light-yellow);

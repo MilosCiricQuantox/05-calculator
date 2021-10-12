@@ -10,8 +10,10 @@ const reset = document.querySelector('.reset');
 const equally = document.querySelector('.equally');
 const number = document.querySelectorAll('.number');
 const calculationArr = document.querySelectorAll('.calculation');
+const numbers = [...number];
+const calculation = [... calculationArr];
 
-const array = [body,slider, container, screen1, screenNum, head, gridView, del, reset, equally];
+const array = [body,slider, container, screen1, screenNum, head, gridView, del, reset, equally,...numbers, ...calculation];
 
 // value from slider is string
 slider.onchange = function () {
@@ -105,6 +107,7 @@ equally.addEventListener('click', function(e) {
     doOper();
     result += '';
     screenNum.textContent = `${result.includes('.') ? (+result).toFixed(2) : result}`;
+    console.log(screenNum.textContent);
     num1 = '';
     num2 = screenNum.textContent;
 });
